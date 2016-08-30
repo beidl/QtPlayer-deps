@@ -56,7 +56,7 @@ ISO_KERNEL_FLAGS="quiet splash i915.enable_psr=0 i915.enable_fbc=0 intel_pstate=
 
 ISO_ADDITIONAL_PKGS='openssh-server libxss1 lm-sensors pulseaudio pavucontrol libsigc++-2.0-0c2a libgtkmm-3.0-1 xserver-xorg-video-intel-lts-xenial ubuntu-restricted-extras gstreamer1.0-vaapi i965-va-driver'
 ISO_REMOVE_PKGS='firefox abiword gnumeric simple-scan mtpaint xfburn guvcview transmission pidgin sylpheed gnome-mplayer audacious light-locker'
-ISO_DEFAULT_PASSWORD='$1$pIDAF2jp$.8ijYZ01o6gghl4KFFjpE/'
+ISO_DEFAULT_PASSWORD='$1$63v6RZf2$M77ZmhwfuVrlLWYXz7.YG/'
 
 if [ -f $ISO_CUSTOMIZATION_PATH/$GF_ISO_CUSTOMER/config-override.sh ]; then
     source $ISO_CUSTOMIZATION_PATH/$GF_ISO_CUSTOMER/config-override.sh
