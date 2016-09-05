@@ -63,4 +63,4 @@ if [ -f $ISO_CUSTOMIZATION_PATH/$GF_ISO_CUSTOMER/config-override.sh ]; then
 fi
 
 INSTALL_PREFIX="/opt/gf-builddeps"
-NMQT_INSTALL_PREFIX="/opt/gf-builddeps"
+NMQT_INSTALL_PREFIX="/opt/gf-libnmqt"
