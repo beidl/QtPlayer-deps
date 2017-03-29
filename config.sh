@@ -70,6 +70,8 @@ ISO_ADDITIONAL_PKGS='openssh-server libxss1 lm-sensors pulseaudio pavucontrol li
 ISO_REMOVE_PKGS='firefox abiword gnumeric simple-scan mtpaint xfburn guvcview transmission pidgin sylpheed gnome-mplayer audacious light-locker update-manager ubuntu-release-upgrader-core update-manager-core cups xfce4-power-manager alsamixergui transmission-gtk lubuntu-software-center usb-creator-gtk xpad bluez blueman ntp'
 ISO_DEFAULT_PASSWORD='$1$VOh9bV6x$L2reWhyMQUdEOcacjosJj.'
 ISO_INCLUDE_MIGRATOR=0
+ISO_DEFAULT_SYSTEMDTARGET=""
+GF_DEFAULT_SYSTEMDTARGET="graphical.target"
 
 if [ -f $ISO_CUSTOMIZATION_PATH/$GF_ISO_CUSTOMER/config-override.sh ]; then
     source $ISO_CUSTOMIZATION_PATH/$GF_ISO_CUSTOMER/config-override.sh
